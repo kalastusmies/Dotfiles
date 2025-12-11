@@ -1,0 +1,171 @@
+@import '../../.cache/wal/colors-waybar.css';
+*{
+  font-family: Protomolecule;
+  font-size: 18px;
+  padding: 0px 3px 0px 3px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.modules-left {
+background-color:  @background;
+margin-left: 2px;
+}
+window#waybar {
+  color: #eebebe;
+  background: rgba(0,0,0,0);
+margin-left: 2px;
+margin-right: 2px;
+}
+
+
+.modules-center {
+  background-color: @background;
+
+margin-right: 0px;
+}
+.modules-right {
+background-color:  @background;
+
+margin-right: 0px;
+}
+#backlight-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#backlight-slider trough {
+    min-height: 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    background-color: @background;
+}
+#backlight-slider highlight {
+    min-width: 0px;
+    border-radius: 5px;
+    background-color: @color10;
+}
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 110px;
+    border-radius: 5px;
+    background-color: @color0;
+}
+#pulseaudio-slider highlight {
+    min-width: 0px;
+    border-radius: 5px;
+    background-color: @color10;
+}
+.custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: #1DB954;
+    color: black;
+}
+
+#custom-launcher {
+  font-size: 20px;
+  color: #803dc0;
+  margin: 0px;
+}
+#custom-image {
+color: @color16;
+}
+
+#cpu {
+  color: @color15;
+}
+
+#memory {
+  color: @color15;
+}
+
+
+#battery.charging {
+  color: @color15;
+}
+
+
+#temperature {
+  color: #a6e3a1;
+  background: #eba0ac;
+}
+
+#custom-pacman-update {
+  font-size: 20px;
+  background-image: url("~/.config/waybar/icons/proot.jpg");
+}
+
+
+#workspaces button {
+  color: @color10;
+  border-radius: 15px;
+  padding: 1px;
+}
+
+#workspaces button label {
+  color: @color8;
+  padding: 1px;
+}
+
+#workspaces button.active {
+  background-color: @color15;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+}
+
+#battery {
+  color: @color15;
+}
+
+#backlight {
+  color: @color15;
+
+}
+
+#pulseaudio {
+  color: @color15;
+}
+
+#network {
+  color: @color15;
+  background: #cba6f7;
+}
+
+#clock {
+  color: @foreground;
+}
+
+#tray {
+}
+
+#custom-power-menu {
+  color: @color12;
+}
+
+
+#custom-media-control {
+  color: #1db954;
+  background: #313244;
+}
+
+#bluetooth {
+  color: #1e1e2e;
+  background: #f2cdcd;
+}
+ #custom-notification{
+  color: @color1;
+}
+
+/*# sourceMappingURL=style.css.map */
