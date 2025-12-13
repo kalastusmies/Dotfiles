@@ -7,7 +7,6 @@
 	"margin": 5,
 
 	"image": {
-	"path": "~/.config/waybar/icons/proot.png",
 	"size": 30
 	},
 
